@@ -1,4 +1,4 @@
-class CreateShows < ActiveRecord::Migration[4.2]
+class CreateShows < ActiveRecord::Migration
   create_table do |q|
     q.string :name
     q.string :network
