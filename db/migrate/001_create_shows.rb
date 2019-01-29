@@ -1,5 +1,5 @@
 class CreateShows < ActiveRecord::Migration
-  create_table do |q|
+  create_table :shows do |q|
     q.string :name
     q.string :network
     q.string :day
